@@ -1,0 +1,110 @@
+/* common css start  */
+
+/* common css end  */
+/* navbar css start  */
+nav .container{
+	padding: 15px 0px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}	
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(255 255 255 / 90%);
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #bababb;
+    font-weight: 600;
+}
+.scrolled{
+    background: rgba(0, 0, 0, 0.85);
+    transition: 3s;
+  }
+/* navbar css end   */
+/* header css start  */
+header{
+    background: url(../img/banner_1.jpg);
+    color: #fff;
+}
+header h1{
+    font-size: 60px;
+}
+/* header css end  */
+/* work-station css start  */
+.work-station img{
+    padding: 1px;
+}
+.work-content{
+    position: relative;
+    overflow: hidden;   
+    display : flex;
+    align-items : center;
+    cursor:pointer;
+}
+.work-content:hover .works-content-inner{
+    top: 0px;
+    visibility: visible; 
+    transition: 1.5s;       
+}
+.works-content-inner{
+    transition: .5s;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: -100%;
+    text-align: center;
+    background: rgba(215, 67, 67, 0.9);
+  }
+  .works-content-inner .inner-text{
+	position: absolute;
+    top : 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform    : translate(-50%, -50%); 
+}
+  .works .works-content-inner p{
+    font-size: 14px;
+  }
+/* work-station css end  */
+/* our-team section start   */
+.our-team ul.nav li a{
+    display: inline-block;
+    padding: 6px 10px;
+    margin: 0px 4px;
+    border: 1px solid #a0a2ae;
+    border-radius: 5px;
+} 
+/* our-team section end   */
+/* testimonial section start  */
+.testimonial .carousel-item .testimonial-right{
+	background-color: #53354a;  
+}
+.testimonial .carousel-item .testimonial-right{
+    font-family: 'Cardo', serif;
+    font-style: italic;
+    font-size: 24px;
+}
+.carousel-indicators [data-bs-target]{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #a0a2ae;
+    opacity: 1;
+    border-top: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+}
+/* testimonial section end  */
+/* big-footer css start  */
+.big-footer{
+	background: #3a3e64;
+}
+.big-footer ul.nav li{
+    padding: 6px 10px;
+    display: inline-block;
+    margin: 0px 4px;
+    border: 1px solid #fff;
+}
+/* big-footer css end  */
+/* footer css start  */
+.footer{
+    background: #313454;
+}
+/* footer css end  */
